@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.addUser {
+    background-image: url(../img/undraw_female_avatar_w3jk.svg);
+    background-repeat: no-repeat;
+    background-position: left 20% bottom 150%;
+    background-size: 600px;
+    color: rgb(255, 99, 99);
+}
+
+.index {
+    background-image: url(../img/undraw_Statistics_re_kox4.svg);
+    background-repeat: no-repeat;
+    background-position: left 50% bottom 187%;
+    color: rgb(156, 99, 255);
+}
+
+.returndeclare {
+    background-image: url(../img/undraw_revenue_3osh.svg);
+    background-repeat: no-repeat;
+    background-position: left 20% bottom 600%;
+    background-size: 750px;
+    color: rgb(99, 255, 123);
+}
+
+.spentdeclare {
+    background-image: url(../img/undraw_personal_finance_tqcd.svg);
+    background-repeat: no-repeat;
+    background-position: left 20% bottom 600%;
+    background-size: 600px;
+    color: rgb(255, 193, 99);
+}
+
+.userList {
+    color: rgb(156, 99, 255);
+}
+
+.imguserlist {
+    width: 300px;
+}
+
+
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: aliceblue;
+}
+
+h1 {
+    color: rgb(156, 99, 255);
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn-declare {
+    background-color: rgb(99, 255, 123);
+}
+
+.btn-add {
+    background-color: rgb(255, 99, 99);
+}
+
+.btn-declare-spent {
+    background-color: rgb(255, 193, 99);
+}
+
+h3 {
+    text-align: center;
+}
+
+#chartjs {
+    width: 500px;
+    height: 500px;
+}
+
+.title {
+font-weight: bold;
+font-size: 100px;
+}
+#form-update {
+    margin-top: 60px;
+}
+#update-title {
+    margin-top: 60px;
+}
